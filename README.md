@@ -1,5 +1,5 @@
-# ManiacAire #
+# V2.4-Aire #
 
-![](./image/AirFlow.jpg?raw=true)
+![](./images/AirFlow.jpg?raw=true)
 
 hello
