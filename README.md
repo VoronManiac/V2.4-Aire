@@ -3,9 +3,9 @@ Each Aire filter has a HEPA particle prefilter followed by an activated charcoal
 
 ![](./images/PXL_20240910_233532594a.jpg?raw=true)
 
-The design is optimized for high air flow to increase the turnover rate of heated chamber air.  Aire uses inexpensive Eufy RoboVAC HEPA filters.  Sufficient space is provided between the Eufy HEPA filter and the 5015 blower intake to prevent the blower from stalling.  The blower exhaust feeds the single piece activated carbon cartridge.  The cartridge attaches to the HEPA/blower section with magnets. Once loaded with charcoal, two small doors slide into place to close off the cartridge. 
+The design is optimized for high air flow to increase the turnover rate of heated chamber air.  Aire uses inexpensive Eufy RoboVAC HEPA filters.  The Eufy HEPA filter sits above the 5015 blower, but sufficient space is provided between the two to prevent the blower from stalling.  The blower exhaust feeds the single piece activated carbon cartridge.  The cartridge attaches to the HEPA/blower section with magnets. Once loaded with charcoal, two small doors slide into place to close off the cartridge. 
 
-As shown below, the airpath in the cartridge splits into two sections, passes through a 17mm wide layer of charcoal,  and then gets collected in the output plenums.  Distributing the charcoal in a thin layer reduces the back pressure on the blower, increasing air flow.  Each 95mm cartridge has similar charcoal capacitiy compared to NeverMore DuoV5.  
+As shown below, the airpath in the cartridge splits into two sections, passing through a 17mm wide layer of charcoal,  and then gets collected in the output plenums.  The split path and relatively thin width of charcoal reduce blower back pressure and helps increase airflow.  Each 95mm cartridge has similar charcoal capacitiy compared to NeverMore DuoV5.  The 95mm cartridge could be redesigned to further increase the charcoal volume by lengthening it, which incidentially would *decrease* the blower back pressure and increase airflow.
 
 ![](./images/AirFlow.jpg?raw=true)
 
