@@ -38,7 +38,7 @@ Insert a soldered JST housing into each the FilterMain parts, noting the orienti
 
 Orient the 5015 blowers to line up with the exhaust phlenum and secure in place with BlowerHoldDowns and M3x8 screws.  Tuck in the excess blower wire.
 
-Trial fit the FilterTop onto each FilterMain, slide into place and snug up the four retaining screws.  Inspect that the FilterTop aligns with the FilterMain and forms a tight fit with the CarbonFilter cartridge. Depending on your print quality, lightly sand away any 3D print imperfections on the mating surfaces.  Doesn't have to be perfect.  
+Trial fit the FilterTop onto each FilterMain, slide into place and snug up the four retaining screws.  Inspect that the FilterTop aligns and squares up with the FilterMain and forms a tight fit with the CarbonFilter cartridge. Depending on your print quality, lightly sand away any 3D print imperfections on the mating surfaces.  Doesn't have to be perfect.  
 
 Inspect the magnet pockets for 3d print irregularities and trial fit the magnets.   A piece of wax paper is a convenient separator between the magnets as they are glued in, allowing the cartridge to be pressed against the FilterMain/FilterTop assembly. Orient the magnet pairs so they attract, separated by the was paper. When satisified with the fit CA into place.  
   
