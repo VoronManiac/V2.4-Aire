@@ -31,10 +31,11 @@ It is difficult to say how frequently the HEPA filter and charcoal need to be re
 
 ## Assembly ##
 
-Insert six heat set inserts into each of the FilterMainL and FilterMainR parts.  
+Insert six heat set inserts into each of the FilterMainL and FilterMainR parts making sure the inserts are flush or below the plastic.
 ![](./images/Inserts.jpg?raw=true)
 
 Add M3x8 screws to the four outermost inserts leaving about 3mm of the screw thread exposed.
+![](./images/Screws.jpg?raw=true)
 
 Take the perfectly good 5015 blowers and cut the leads to about 80mm.  Solder and heat shrink the blower leads to the 2P JST housings keeping the red/black orientation matching the original lead.
 
