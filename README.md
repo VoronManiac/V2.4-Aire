@@ -39,7 +39,11 @@ Add M3x8 screws to the four outermost inserts leaving about 3mm of the screw thr
 
 Take the perfectly good 5015 blowers and cut the leads to about 80mm.  Solder and heat shrink the blower leads to the 2P JST housings keeping the red/black orientation matching the original lead.
 
-Insert a soldered JST housing into each the FilterMain parts, noting the oriention of the JST housing.  Slide a ConnClamp over each JST housing.  The ConnClamp should snap into place with some modest pressure.
+Insert a soldered JST housing into each the FilterMain parts, noting the oriention of the JST housing. Insert at an angle, then press flat until it snaps into place. 
+![](./images/Insert_JST.jpg?raw=true)
+
+Starting at a slight angle, slide a ConnClamp over each JST housing.  The ConnClamp should snap into place with some modest pressure.
+![](./images/InsertRetainer.jpg?raw=true)
 
 Orient the 5015 blowers to line up with the exhaust phlenum and secure in place with BlowerHoldDowns and M3x8 screws.  Tuck in the excess blower wire.
 
