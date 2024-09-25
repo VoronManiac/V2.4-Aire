@@ -42,19 +42,30 @@ Take the perfectly good 5015 blowers and cut the leads to about 80mm.  Solder an
 Insert a soldered JST housing into each the FilterMain parts, noting the oriention of the JST housing. Insert at an angle, then press flat until it snaps into place. 
 ![](./images/Insert_JST.jpg?raw=true)
 
+![](./images/JST_Orientation.jpg?raw=true)
+
 Starting at a slight angle, slide a ConnClamp over each JST housing.  The ConnClamp should snap into place with some modest pressure.
 ![](./images/InsertRetainer1.jpg?raw=true)
 
 Orient the 5015 blowers to line up with the exhaust phlenum and secure in place with BlowerHoldDowns and M3x8 screws.  Tuck in the excess blower wire.
 
+![](./images/HoldDowns.jpg?raw=true)
+
 Trial fit the FilterTop onto each FilterMain, slide into place and snug up the four retaining screws.  Inspect that the FilterTop aligns and squares up with the FilterMain and forms a tight fit with the CarbonFilter cartridge. Depending on your print quality, lightly sand away any 3D print imperfections on the mating surfaces.  Doesn't have to be perfect.  
 
-Inspect the magnet pockets for 3d print irregularities and trial fit the magnets.   A piece of wax paper is a convenient separator between the magnets as they are glued in, allowing the cartridge to be pressed against the FilterMain/FilterTop assembly. Orient the magnet pairs so they attract, separated by the was paper. When satisified with the fit CA into place.  
+![](./images/AttachTop.jpg?raw=true)
+
+Inspect the magnet pockets for 3d print irregularities and trial fit the magnets.   A piece of wax paper is a convenient separator between the magnets as they are glued in, allowing the cartridge to be pressed against the FilterMain/FilterTop assembly. Orient the magnet pairs so they attract, separated by the wax paper. When satisified with the fit CA into place.  
   
+The RoboVac filter can be inserted with the extraction ribbon facing outwards or inwards.  If facing outwards, it doeesn't sit as flat under the foam prefilter and obstructs a small amount of the filter surface.  My preferences is to install inwards in which case a small allen wrench can be inserted as shown to pry out the filter when it comes time for removal.
 
+![](./images/InsertFilterTab.jpg?raw=true)
 
+Add the foam prefilter that comes with with the RoboVac filters and snap the FilterScreen into place.  A  finger nail or small screwdriver can be inserted as shown to pry off the FilterScreen as needed when replacing the filters.
 
+![](./images/InsertFilterScreen.jpg?raw=true)
 
+I recommend testing each filter before it is installed in the printer.  Ideally if a power supply is available check the fan is drawing ().  There are a lot of underpowered counterfeit fans in the supply chain that only draw a fraction of this power with drastically reduced airflow.
 
 
 
