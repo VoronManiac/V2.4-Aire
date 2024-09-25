@@ -43,7 +43,7 @@ Insert a soldered JST housing into each the FilterMain parts, noting the orienti
 ![](./images/Insert_JST.jpg?raw=true)
 
 Starting at a slight angle, slide a ConnClamp over each JST housing.  The ConnClamp should snap into place with some modest pressure.
-![](./images/InsertRetainer.jpg?raw=true)
+![](./images/InsertRetainer1.jpg?raw=true)
 
 Orient the 5015 blowers to line up with the exhaust phlenum and secure in place with BlowerHoldDowns and M3x8 screws.  Tuck in the excess blower wire.
 
