@@ -23,6 +23,7 @@ It is difficult to say how frequently the HEPA filter and charcoal need to be re
 |2           |GDSTIME 5015 Turbo Dual BB 24V  | https://www.amazon.com/gp/product/B0B1V6JTB8/ref=ppx_yo_dt_b_search_asin_title  |
 |2      | 2-Pin 2.5mm JST Male Pin Header | like https://www.digikey.com/en/products/detail/jst-sales-america-inc./B2B-XH-A/1651045 |
 | 16  | M3x8 BHCS |  |
+|4|M3 Half Round Nuts|https://www.amazon.com/gp/product/B08YNFGYNH/ref=ppx_yo_dt_b_search_asin_title|
 | 4 | M3 9mm washer |    |
 | 12 |  M3xD5.0xL4.0 Heatset Insert | |
 | 16 | N52 magnets 6mm dia x 3mm thick| | 
@@ -73,9 +74,15 @@ Check the fit of each FilterDoor by sliding them into the CarbonFilters.  They s
 
 ## Installation ##
 
-The 
+The filters can be mounted so the exhaust is directed towards the front or back of the chamber according to personal preference.  I haven't seen any issues with front facing exhausts when the filters are mounted towards the back of the chamber.
+
+Start by removing the HEPA filters, FilterScreens and the FilterTop of each filter by backing out the four M3 screws holding the FilterTop by a couple of turns.  Removing the FilterTop provides access to the two mounting holes.  Insert two half round nuts into the 2020 channel and slide so the holes line up with holes in each FilterMain.  The Right and Left FilterMain have alternate unused mounting holes blocked off. Insert The M3x8 screws with M3x9mm washers and secure the FilterMain where indictated below with the yellow arrows.  The TPU Z belt covers shown are used in the Low Glare LED project and have channels for routing the power leads to the filters.  If you decide not to use these z-belt covers, plan out your wire routing for the filter power leads.
 
 ![](./images/PXL_20241231_002415320a.jpg?raw=true)
+
+
+Once satified with the position tighten the FilterMain into place.    Allow the CarbonFilter cartridge to snap to the FilterMain and FilterTop then lock the FilterTops into place by snugging the four retaining screws with an allen wrench as shown below
+
 
 ![](./images/PXL_20241231_003405013.MPa.jpg?raw=true)
 
