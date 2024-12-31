@@ -81,14 +81,26 @@ Start by removing the HEPA filters, FilterScreens and the FilterTop of each filt
 ![](./images/PXL_20241231_002415320a.jpg?raw=true)
 
 
-Once satified with the position tighten the FilterMain into place.    Allow the CarbonFilter cartridge to snap to the FilterMain and FilterTop then lock the FilterTops into place by snugging the four retaining screws with an allen wrench as shown below
+Once satified with the position tighten the FilterMain into place.    Allow the CarbonFilter cartridge to snap to the FilterMain and FilterTop then lock the FilterTops into place by snugging the four retaining screws with an allen wrench as shown below.  Re-install the HEPA filters, foam prefilter, and FilterScreens.
 
 
 ![](./images/PXL_20241231_003405013.MPa.jpg?raw=true)
 
-![](./imagesPXL_20241231_003556793a.jpg?raw=true)
+
+
+Wire routing with power leads connected to JST using the TPU z-belt cover from the LED project.
 
 ![](./images/PXL_20241231_003657176a.jpg?raw=true)
+
+
+![](./images/PXL_20241231_003556793a.jpg?raw=true)
+
+
+## FW Setup ##
+
+
+
+
 
 
 
