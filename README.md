@@ -30,6 +30,10 @@ It is difficult to say how frequently the HEPA filter and charcoal need to be re
 | 2  | 10mm Red/Black 1.5mm Dia heat shrink tubing| |
 | bag | activated charcoal | |
 
+## Printing ##
+
+Print in ABS
+
 ## Assembly ##
 
 Insert six heat set inserts into each of the FilterMainL and FilterMainR parts making sure the inserts are flush or below the plastic.
@@ -40,7 +44,7 @@ Add M3x8 screws to the four outermost inserts leaving about 3mm of the screw thr
 
 Take the perfectly good 5015 blowers and cut the leads to about 80mm.  Solder and heat shrink the blower leads to the 2P JST housings keeping the red/black orientation matching the original lead.
 
-Insert a soldered JST housing into each the FilterMain parts, noting the orientation of the JST housing. The gap in the JST connector should face down.  Insert the connector at an angle, then press flat until it snaps into place. 
+Insert a soldered JST housing into each of the FilterMain parts, noting the orientation. The gap in the JST connector should face down.  Insert the connector at an angle, then press flat until it snaps into place. 
 ![](./images/Insert_JST.jpg?raw=true)
 
 ![](./images/JST_Orientation.jpg?raw=true)
@@ -52,11 +56,11 @@ Orient the 5015 blowers to line up with the exhaust phlenum and secure in place 
 
 ![](./images/HoldDowns.jpg?raw=true)
 
-Trial fit the FilterTop onto each FilterMain, slide into place and snug up the four retaining screws.  Inspect that the FilterTop aligns and squares up with the FilterMain and forms a tight fit with the CarbonFilter cartridge. Depending on your print quality, lightly sand away any 3D print imperfections on the mating surfaces.  Doesn't have to be perfect.  
+Trial fit the FilterTop onto each FilterMain, slide into place and snug up the four retaining screws.  Verify that the FilterTop aligns and squares up with the FilterMain and forms a tight fit with the CarbonFilter cartridge. Depending on your print quality, lightly sand away any 3D print imperfections on the mating surfaces.  It doesn't have to be perfect.  
 
 ![](./images/AttachTop.jpg?raw=true)
 
-Inspect the magnet pockets for 3d print irregularities and trial fit the magnets.   A piece of wax paper is a convenient separator between the magnets as they are glued in, allowing the cartridge to be pressed against the FilterMain/FilterTop assembly. Orient the magnet pairs so they attract, separated by the wax paper. When satisified with the fit CA into place.  
+Inspect the magnet pockets for 3d print irregularities and trial fit the magnets.   A piece of wax paper is a convenient separator between the magnets as they are glued in, allowing the cartridge to be pressed against the FilterMain/FilterTop assembly. Orient the magnet pairs so they attract, separated by the wax paper. When satisified with the fit add a drop of CA to glue the magnets into place.  
   
 The RoboVac filter can be inserted with the extraction ribbon facing outwards or inwards.  If facing outwards, it doesn't sit as flat under the foam prefilter and obstructs a small amount of the filter surface.  My preferences is to install inwards in which case a small allen wrench can be inserted as shown to pry out the filter when it comes time for removal.
 
@@ -66,7 +70,7 @@ Add the foam prefilter that comes with with the RoboVac filters and snap the Fil
 
 ![](./images/InsertFilterScreen.jpg?raw=true)
 
-I recommend testing each filter before it is installed in the printer.  Ideally if a power supply is available check the fan is drawing at least 80mA.  There are a lot of underpowered counterfeit fans in the supply chain that only draw a fraction of this power with drastically reduced airflow.
+I recommend testing each filter before it is installed in the printer. If a power supply is available, check the fan is drawing at least 80mA.  There are a lot of underpowered counterfeit fans in the supply chain that only draw a fraction of this power with drastically reduced airflow.
 
 Check the fit of each FilterDoor by sliding them into the CarbonFilters.  They should just fit and snap into place when fully inserted. Remove any elephant foot or blobs as needed. Note there is a chamfer on the edge of each door that mates into the dovetail grove of the CarbonFilters so be sure to get the orientation correct. Slide the funnel into place as shown and fill each of the two chambers of each CarbonFilter with activated charcoal. Gently tap and jiggle the filter so the carbon settles.  If the chamber is not completely full, air will bypass over the top of the charcoal layer reducing the effectiveness of filter.  Insert the FilterDoor as each chamber is filled.
 
@@ -74,9 +78,11 @@ Check the fit of each FilterDoor by sliding them into the CarbonFilters.  They s
 
 ## Installation ##
 
-The filters can be mounted so the exhaust is directed towards the front or back of the chamber according to personal preference.  I haven't seen any issues with front facing exhausts when the filters are mounted towards the back of the chamber.
+The filters can be mounted so the exhaust is directed towards the front or back of the chamber according to personal preference.  I haven't seen any draft/warping issues with rear mounted filters with front facing exhausts as pictured.
 
-Start by removing the HEPA filters, FilterScreens and the FilterTop of each filter by backing out the four M3 screws holding the FilterTop by a couple of turns.  Removing the FilterTop provides access to the two mounting holes.  Insert two half round nuts into the 2020 channel and slide so the holes line up with holes in each FilterMain.  The Right and Left FilterMain have alternate unused mounting holes blocked off. Insert The M3x8 screws with M3x9mm washers and secure the FilterMain where indicated below with the yellow arrows.  The TPU Z belt covers shown are used in the Low Glare LED project and have channels for routing the power leads to the filters.  If you decide not to use these z-belt covers, plan out your wire routing for the filter power leads.
+Start by removing the HEPA filters, FilterScreens and the FilterTop of each filter by backing out the four M3 screws holding the FilterTop by a couple of turns.  Removing the FilterTop provides access to the two mounting holes.  Insert two half round T nuts into the 2020 channel and slide so the holes line up with holes in each FilterMain.  The Right and Left FilterMain have unused mounting holes blocked off. Insert the M3x8 screws with M3x9mm washers and secure the FilterMain where indicated below with the yellow arrows.  The TPU Z belt covers shown are used in the Low Glare LED project and have channels for routing the power leads to the filters.  If you decide not to use these z-belt covers, plan out your wire routing for the filter power leads.
+
+https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/STL/Common/DeckCornerRightRear.stl
 
 ![](./images/PXL_20241231_002415320a.jpg?raw=true)
 
@@ -99,15 +105,15 @@ Wire routing with power leads connected to JST using the TPU z-belt cover from t
 The filter Z height is constrained to 35mm max which is slightly below the print bed surface of a typical V2.4.  Check that your printer has the 35mm of clearance.  In some earlier V2.4 machines, the M3 SHCS that holds the X/Y endstop switch housing in place can be replaced with BHCS or the housing can be modified to completely recess the screws.  The clearance might also be a function of hot end length and z-home switch.<br>
 
 ## FW Setup ##
-Add the following to printer.cfg so that the filters come on when the extruder or bed are set or are above 90C.  The extra airflow across and under the bed help heat the chamber a bit more quickly at the start of a print.
+Add the following to `printer.cfg` so that the filters come on when the extruder or bed are above 90C.  The extra airflow across and under the bed helps heat the chamber a bit more quickly at the start of a print.<br>
+```
+ [heater_fan filter_fan]
 
- [heater_fan filter_fan]<br>
-<br>
-  pin: PD12  #machine specific<br>
-  kick_start_time: 0.5<br>
-  heater: heater_bed, extruder<br>
-  heater_temp: 90.0<br>
-
+  pin: PD12  #machine specific
+  kick_start_time: 0.5
+  heater: heater_bed, extruder
+  heater_temp: 90.0
+```
 
 
 
