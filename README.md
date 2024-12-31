@@ -1,11 +1,9 @@
 # V2.4-Aire #
-Each Aire filter has a HEPA particle prefilter followed by an activated charcoal filter, and is targeted at Voron 2.4 250/300/350 printers. Ideally, a pair of filters is mounted on either side of the print bed.  <br>
-
-The filter Z height is constrained to 35mm max which is slightly below the print bed surface of a typical V2.4.  Check that your printer has the 35mm of clearance.  In some earlier V2.4 machines, the M3 SHCS that hold the X/Y endstop switch housing in place can be replaced with BHCS or the housing can be modified to completely recess the screws.  The clearance might also be a function of hot end length and z-home switch.<br>
+Each Aire filter has a HEPA particle prefilter followed by an activated charcoal filter and is targeted at Voron 2.4 250/300/350 printers. Ideally, a pair of filters is mounted on either side of the print bed. The design is optimized for high air flow to increase the turnover rate and minimize particulate. <br>
 
 ![](./images/PXL_20240910_233532594a.jpg?raw=true)
 
-The design is optimized for high air flow to increase the turnover rate of heated chamber air.  Aire uses inexpensive Eufy RoboVAC HEPA filters.  The Eufy HEPA filter sits above the 5015 blower, but sufficient space is provided between the two to prevent the blower from stalling.  The blower exhaust feeds the single piece activated carbon cartridge.  The cartridge attaches to the HEPA/blower section with magnets. Once loaded with charcoal, two small doors slide into place to close off the cartridge. 
+Aire uses inexpensive Eufy RoboVAC HEPA filters.  The Eufy HEPA filter sits above the 5015 blower, but sufficient space is provided between the two to prevent the blower from stalling.  The blower exhaust feeds the single piece activated carbon cartridge.  The cartridge attaches to the HEPA/blower section with magnets. Once loaded with charcoal, two small doors slide into place to close off the cartridge. 
 
 As shown below, the air path in the cartridge splits into two sections, passing through a 17mm wide layer of charcoal,  and then gets collected in the output plenums.  The split path and relatively thin width of charcoal reduce blower back pressure and helps increase airflow.  Each 95mm cartridge has similar charcoal capacity compared to NeverMore DuoV5.  The 95mm cartridge could be redesigned to further increase the charcoal volume by lengthening it, which incidentally would *decrease* the blower back pressure and increase airflow.
 
@@ -97,6 +95,8 @@ Wire routing with power leads connected to JST using the TPU z-belt cover from t
 
 ![](./images/PXL_20241231_003556793a.jpg?raw=true)
 
+## Special Considerations ##
+The filter Z height is constrained to 35mm max which is slightly below the print bed surface of a typical V2.4.  Check that your printer has the 35mm of clearance.  In some earlier V2.4 machines, the M3 SHCS that holds the X/Y endstop switch housing in place can be replaced with BHCS or the housing can be modified to completely recess the screws.  The clearance might also be a function of hot end length and z-home switch.<br>
 
 ## FW Setup ##
 Add the following to printer.cfg so that the filters come on when the extruder or bed are set or are above 90C.  The extra airflow across and under the bed help heat the chamber a bit more quickly at the start of a print.
