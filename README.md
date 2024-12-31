@@ -32,7 +32,12 @@ It is difficult to say how frequently the HEPA filter and charcoal need to be re
 
 ## Printing ##
 
-Print in ABS using standard Voron Settings: 40% infill, 4 perimeters, 5 solid bottom/top 
+Print in ABS using standard Voron Settings: 40% infill, 4 perimeters, 5 solid bottom/top,  First layer filament/bed 260/120 others 250/110.  
+
+A z-lift of 0.1mm seemed to reduce stringing when printing the CarbonFilter grid, but significantly increases the print time.
+
+The CarbonFilter STL supports being split into four sub-objects in the slicer for accent colorization.  I found that Paramount Red ABS was somewhat translucent and darkened when a black back layer was applied over the accent. The STL contains an extra color change back layer for the red accent color.  I found the red really popped with a white or silver back layer.
+
 
 ## Assembly ##
 
@@ -92,7 +97,7 @@ Once satisfied with the position tighten the FilterMain into place.    Allow the
 
 
 
-Wire routing with power leads connected to JST using the TPU z-belt cover from the LED project.
+Wire routing with power leads connected to JST using the TPU z-belt cover from the LED project as shown below.
 
 ![](./images/PXL_20241231_003657176a.jpg?raw=true)
 
