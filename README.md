@@ -65,7 +65,34 @@ Add the foam prefilter that comes with with the RoboVac filters and snap the Fil
 
 ![](./images/InsertFilterScreen.jpg?raw=true)
 
-I recommend testing each filter before it is installed in the printer.  Ideally if a power supply is available check the fan is drawing ().  There are a lot of underpowered counterfeit fans in the supply chain that only draw a fraction of this power with drastically reduced airflow.
+I recommend testing each filter before it is installed in the printer.  Ideally if a power supply is available check the fan is drawing at least 80mA.  There are a lot of underpowered counterfeit fans in the supply chain that only draw a fraction of this power with drastically reduced airflow.
+
+Check the fit of each FilterDoor by sliding them into the CarbonFilters.  They should just fit and snap into place when fully inserted. Remove any elephant foot or blobs as needed. Note there is a chamfer on the edge of each door that mates into the dovetail grove of the CarbonFilters so besure to get the orientation correct. Slide the funnel into place as shown and fill each of the two chambers of each CarbonFilter with activated charcoal. Gently tap and jiggle the filter so the carbon settles.  If the chamber is not completely full, air will bypass over the top of the charcoal layer reducing the effectiveness of filter.  Insert the FilterDoor as each chamber is filled.
+
+![](./images/PXL_20241231_004722283a.jpg?raw=true)
+
+## Installation ##
+
+The 
+
+![](./images/PXL_20241231_002415320a.jpg?raw=true)
+
+![](./images/PXL_20241231_003405013.MPa.jpg?raw=true)
+
+![](./imagesPXL_20241231_003556793a.jpg?raw=true)
+
+![](./images/PXL_20241231_003657176a.jpg?raw=true)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
