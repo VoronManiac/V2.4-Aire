@@ -1,11 +1,13 @@
 # V2.4-Aire #
-Each Aire filter has a HEPA particle prefilter followed by an activated charcoal filter, and is targeted at Voron 2.4 250/300/350 printers. Ideally, a pair of filters is mounted on either side of the print bed.  The filter Z height is constrained to 35mm max which is slightly below the print bed surface of a typical V2.4.
+Each Aire filter has a HEPA particle prefilter followed by an activated charcoal filter, and is targeted at Voron 2.4 250/300/350 printers. Ideally, a pair of filters is mounted on either side of the print bed.  <br>
+
+The filter Z height is constrained to 35mm max which is slightly below the print bed surface of a typical V2.4.  Check that your printer has the 35mm of clearance.  In some earlier V2.4 machines, the M3 SHCS that hold the X/Y endstop switch housing in place can be replaced with BHCS or the housing can be modified to completely recess the screws.  The clearance might also be a function of hot end length and z-home switch.<br>
 
 ![](./images/PXL_20240910_233532594a.jpg?raw=true)
 
 The design is optimized for high air flow to increase the turnover rate of heated chamber air.  Aire uses inexpensive Eufy RoboVAC HEPA filters.  The Eufy HEPA filter sits above the 5015 blower, but sufficient space is provided between the two to prevent the blower from stalling.  The blower exhaust feeds the single piece activated carbon cartridge.  The cartridge attaches to the HEPA/blower section with magnets. Once loaded with charcoal, two small doors slide into place to close off the cartridge. 
 
-As shown below, the airpath in the cartridge splits into two sections, passing through a 17mm wide layer of charcoal,  and then gets collected in the output plenums.  The split path and relatively thin width of charcoal reduce blower back pressure and helps increase airflow.  Each 95mm cartridge has similar charcoal capacitiy compared to NeverMore DuoV5.  The 95mm cartridge could be redesigned to further increase the charcoal volume by lengthening it, which incidentially would *decrease* the blower back pressure and increase airflow.
+As shown below, the air path in the cartridge splits into two sections, passing through a 17mm wide layer of charcoal,  and then gets collected in the output plenums.  The split path and relatively thin width of charcoal reduce blower back pressure and helps increase airflow.  Each 95mm cartridge has similar charcoal capacity compared to NeverMore DuoV5.  The 95mm cartridge could be redesigned to further increase the charcoal volume by lengthening it, which incidentally would *decrease* the blower back pressure and increase airflow.
 
 ![](./images/AirFlow.jpg?raw=true)
 
@@ -27,7 +29,7 @@ It is difficult to say how frequently the HEPA filter and charcoal need to be re
 | 4 | M3 9mm washer |    |
 | 12 |  M3xD5.0xL4.0 Heatset Insert | |
 | 16 | N52 magnets 6mm dia x 3mm thick| | 
-| 2  | 10mm 1.5mm Dia heat shrink tubing| |
+| 2  | 10mm Red/Black 1.5mm Dia heat shrink tubing| |
 | bag | activated charcoal | |
 
 ## Assembly ##
@@ -40,7 +42,7 @@ Add M3x8 screws to the four outermost inserts leaving about 3mm of the screw thr
 
 Take the perfectly good 5015 blowers and cut the leads to about 80mm.  Solder and heat shrink the blower leads to the 2P JST housings keeping the red/black orientation matching the original lead.
 
-Insert a soldered JST housing into each the FilterMain parts, noting the oriention of the JST housing. Insert at an angle, then press flat until it snaps into place. 
+Insert a soldered JST housing into each the FilterMain parts, noting the orientation of the JST housing. The gap in the JST connector should face down.  Insert the connector at an angle, then press flat until it snaps into place. 
 ![](./images/Insert_JST.jpg?raw=true)
 
 ![](./images/JST_Orientation.jpg?raw=true)
@@ -58,7 +60,7 @@ Trial fit the FilterTop onto each FilterMain, slide into place and snug up the f
 
 Inspect the magnet pockets for 3d print irregularities and trial fit the magnets.   A piece of wax paper is a convenient separator between the magnets as they are glued in, allowing the cartridge to be pressed against the FilterMain/FilterTop assembly. Orient the magnet pairs so they attract, separated by the wax paper. When satisified with the fit CA into place.  
   
-The RoboVac filter can be inserted with the extraction ribbon facing outwards or inwards.  If facing outwards, it doeesn't sit as flat under the foam prefilter and obstructs a small amount of the filter surface.  My preferences is to install inwards in which case a small allen wrench can be inserted as shown to pry out the filter when it comes time for removal.
+The RoboVac filter can be inserted with the extraction ribbon facing outwards or inwards.  If facing outwards, it doesn't sit as flat under the foam prefilter and obstructs a small amount of the filter surface.  My preferences is to install inwards in which case a small allen wrench can be inserted as shown to pry out the filter when it comes time for removal.
 
 ![](./images/InsertFilterTab.jpg?raw=true)
 
@@ -68,7 +70,7 @@ Add the foam prefilter that comes with with the RoboVac filters and snap the Fil
 
 I recommend testing each filter before it is installed in the printer.  Ideally if a power supply is available check the fan is drawing at least 80mA.  There are a lot of underpowered counterfeit fans in the supply chain that only draw a fraction of this power with drastically reduced airflow.
 
-Check the fit of each FilterDoor by sliding them into the CarbonFilters.  They should just fit and snap into place when fully inserted. Remove any elephant foot or blobs as needed. Note there is a chamfer on the edge of each door that mates into the dovetail grove of the CarbonFilters so besure to get the orientation correct. Slide the funnel into place as shown and fill each of the two chambers of each CarbonFilter with activated charcoal. Gently tap and jiggle the filter so the carbon settles.  If the chamber is not completely full, air will bypass over the top of the charcoal layer reducing the effectiveness of filter.  Insert the FilterDoor as each chamber is filled.
+Check the fit of each FilterDoor by sliding them into the CarbonFilters.  They should just fit and snap into place when fully inserted. Remove any elephant foot or blobs as needed. Note there is a chamfer on the edge of each door that mates into the dovetail grove of the CarbonFilters so be sure to get the orientation correct. Slide the funnel into place as shown and fill each of the two chambers of each CarbonFilter with activated charcoal. Gently tap and jiggle the filter so the carbon settles.  If the chamber is not completely full, air will bypass over the top of the charcoal layer reducing the effectiveness of filter.  Insert the FilterDoor as each chamber is filled.
 
 ![](./images/PXL_20241231_004722283a.jpg?raw=true)
 
@@ -76,12 +78,12 @@ Check the fit of each FilterDoor by sliding them into the CarbonFilters.  They s
 
 The filters can be mounted so the exhaust is directed towards the front or back of the chamber according to personal preference.  I haven't seen any issues with front facing exhausts when the filters are mounted towards the back of the chamber.
 
-Start by removing the HEPA filters, FilterScreens and the FilterTop of each filter by backing out the four M3 screws holding the FilterTop by a couple of turns.  Removing the FilterTop provides access to the two mounting holes.  Insert two half round nuts into the 2020 channel and slide so the holes line up with holes in each FilterMain.  The Right and Left FilterMain have alternate unused mounting holes blocked off. Insert The M3x8 screws with M3x9mm washers and secure the FilterMain where indictated below with the yellow arrows.  The TPU Z belt covers shown are used in the Low Glare LED project and have channels for routing the power leads to the filters.  If you decide not to use these z-belt covers, plan out your wire routing for the filter power leads.
+Start by removing the HEPA filters, FilterScreens and the FilterTop of each filter by backing out the four M3 screws holding the FilterTop by a couple of turns.  Removing the FilterTop provides access to the two mounting holes.  Insert two half round nuts into the 2020 channel and slide so the holes line up with holes in each FilterMain.  The Right and Left FilterMain have alternate unused mounting holes blocked off. Insert The M3x8 screws with M3x9mm washers and secure the FilterMain where indicated below with the yellow arrows.  The TPU Z belt covers shown are used in the Low Glare LED project and have channels for routing the power leads to the filters.  If you decide not to use these z-belt covers, plan out your wire routing for the filter power leads.
 
 ![](./images/PXL_20241231_002415320a.jpg?raw=true)
 
 
-Once satified with the position tighten the FilterMain into place.    Allow the CarbonFilter cartridge to snap to the FilterMain and FilterTop then lock the FilterTops into place by snugging the four retaining screws with an allen wrench as shown below.  Re-install the HEPA filters, foam prefilter, and FilterScreens.
+Once satisfied with the position tighten the FilterMain into place.    Allow the CarbonFilter cartridge to snap to the FilterMain and FilterTop then lock the FilterTops into place by snugging the four retaining screws with an allen wrench as shown below.  Re-install the HEPA filters, foam prefilter, and FilterScreens.
 
 
 ![](./images/PXL_20241231_003405013.MPa.jpg?raw=true)
@@ -97,6 +99,15 @@ Wire routing with power leads connected to JST using the TPU z-belt cover from t
 
 
 ## FW Setup ##
+Add the following to printer.cfg so that the filters come on when the extruder or bed are set or are above 90C.  The extra airflow across and under the bed help heat the chamber a bit more quickly at the start of a print.
+
+ [heater_fan filter_fan]<br>
+<br>
+  pin: PD12  #machine specific<br>
+  kick_start_time: 0.5<br>
+  heater: heater_bed, extruder<br>
+  heater_temp: 90.0<br>
+
 
 
 
