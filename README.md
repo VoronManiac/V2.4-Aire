@@ -32,7 +32,7 @@ It is difficult to say how frequently the HEPA filter and charcoal need to be re
 
 ## Printing ##
 
-Print in ABS
+Print in ABS using standard Voron Settings: 40% infill, 4 perimeters, 5 solid bottom/top 
 
 ## Assembly ##
 
@@ -42,7 +42,7 @@ Insert six heat set inserts into each of the FilterMainL and FilterMainR parts m
 Add M3x8 screws to the four outermost inserts leaving about 3mm of the screw thread exposed.
 ![](./images/Screws.jpg?raw=true)
 
-Take the perfectly good 5015 blowers and cut the leads to about 80mm.  Solder and heat shrink the blower leads to the 2P JST housings keeping the red/black orientation matching the original lead.
+Take the perfectly good 5015 blowers and cut the leads to about 80mm.  Solder and heat shrink the blower leads to the 2P JST housings, keeping the red/black orientation matching the original leads.
 
 Insert a soldered JST housing into each of the FilterMain parts, noting the orientation. The gap in the JST connector should face down.  Insert the connector at an angle, then press flat until it snaps into place. 
 ![](./images/Insert_JST.jpg?raw=true)
@@ -60,9 +60,9 @@ Trial fit the FilterTop onto each FilterMain, slide into place and snug up the f
 
 ![](./images/AttachTop.jpg?raw=true)
 
-Inspect the magnet pockets for 3d print irregularities and trial fit the magnets.   A piece of wax paper is a convenient separator between the magnets as they are glued in, allowing the cartridge to be pressed against the FilterMain/FilterTop assembly. Orient the magnet pairs so they attract, separated by the wax paper. When satisified with the fit add a drop of CA to glue the magnets into place.  
+Inspect the magnet pockets for 3D print irregularities and trial fit the magnets.   A piece of wax paper is a convenient separator between the magnets as they are glued in, allowing the cartridge to be pressed against the FilterMain/FilterTop assembly. Orient the magnet pairs so they attract, separated by the wax paper. When satisified with the fit add a drop of CA to glue the magnets into place.  
   
-The RoboVac filter can be inserted with the extraction ribbon facing outwards or inwards.  If facing outwards, it doesn't sit as flat under the foam prefilter and obstructs a small amount of the filter surface.  My preferences is to install inwards in which case a small allen wrench can be inserted as shown to pry out the filter when it comes time for removal.
+The RoboVac filter can be inserted with the extraction ribbon facing outwards or inwards.  If facing outwards, it doesn't sit as flat under the foam prefilter and obstructs a small amount of the filter surface.  My preference is to install inwards in which case a small Allen wrench can be inserted as shown to pry out the filter when it comes time for removal.
 
 ![](./images/InsertFilterTab.jpg?raw=true)
 
@@ -80,10 +80,7 @@ Check the fit of each FilterDoor by sliding them into the CarbonFilters.  They s
 
 The filters can be mounted so the exhaust is directed towards the front or back of the chamber according to personal preference.  I haven't seen any draft/warping issues with rear mounted filters with front facing exhausts as pictured.
 
-Start by removing the HEPA filters, FilterScreens and the FilterTop of each filter by backing out the four M3 screws holding the FilterTop by a couple of turns.  Removing the FilterTop provides access to the two mounting holes.  Insert two half round T nuts into the 2020 channel and slide so the holes line up with holes in each FilterMain.  The Right and Left FilterMain have unused mounting holes blocked off. Insert the M3x8 screws with M3x9mm washers and secure the FilterMain where indicated below with the yellow arrows.  The [TPU Z belt covers](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/STL/Common/DeckCornerRightRear.stl) shown are used in the  [Low Glare LED Maniac-Chamber-Lighting](https://github.com/VoronManiac/Maniac-Chamber-Lighting/tree/main) project and have channels for routing the power leads to the filters.  If you decide not to use these z-belt covers, plan out your wire routing for the filter power leads.
-
-
-[dummy](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/STL/Common/DeckCornerRightRear.stl) 
+Start by removing the HEPA filters, FilterScreens and the FilterTop of each filter by backing out the four M3 screws holding the FilterTop by a couple of turns.  Removing the FilterTop provides access to the two mounting holes.  Insert two half round T nuts into the 2020 channel and slide so the holes line up with holes in each FilterMain.  The Right and Left FilterMain have unused mounting holes blocked off. Insert the M3x8 screws with M3x9mm washers and secure the FilterMain where indicated below with the yellow arrows.  The [TPU Z belt covers](https://github.com/VoronManiac/Maniac-Chamber-Lighting/blob/main/STL/Common/DeckCornerRightRear.stl) shown are used in the  [Low Glare LED Maniac-Chamber-Lighting](https://github.com/VoronManiac/Maniac-Chamber-Lighting/tree/main) project and have channels for routing the power leads to the filters.  If you decide not to use these z-belt covers, plan out your wire routing for the filter power leads. 
 
 ![](./images/PXL_20241231_002415320a.jpg?raw=true)
 
