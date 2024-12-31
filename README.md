@@ -1,5 +1,5 @@
 # V2.4-Aire #
-Each Aire filter has a HEPA particle prefilter followed by an activated charcoal filter and is targeted at Voron 2.4 250/300/350 printers. Ideally, a pair of filters is mounted on either side of the print bed. The design is optimized for high air flow to increase the turnover rate and minimize particulate. <br>
+Each Aire filter has a HEPA particle prefilter followed by an activated charcoal filter and is targeted at Voron 2.4 250/300/350 printers. Ideally, a pair of filters is mounted on either side of the print bed. The design is optimized for high air flow to increase the turnover rate and minimize particulate concentration. <br>
 
 ![](./images/PXL_20240910_233532594a.jpg?raw=true)
 
